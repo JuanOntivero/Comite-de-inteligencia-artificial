@@ -1,0 +1,1209 @@
+@import "./partials/header-footer";
+
+%strong-style {
+  text-transform: uppercase;
+  color: tomato;
+  font-size: 60px;
+}
+
+
+
+
+
+
+
+
+.principal{
+    width: 100%;
+  height: 800px;
+  background: linear-gradient(135deg, #ffffff 50%, rgba(0, 0, 0, 0) 50%),
+    /* Degradado */
+    url(../assets/images/pexels-markusspiske-2004161.jpg);
+  /* Imagen de fondo */
+  background-size: cover;
+  background-position: center left;
+  background-repeat: no-repeat;
+  .principal-title{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    h1{
+        font-size: 55px;
+      }
+    strong{
+      @extend %strong-style
+    }
+  }
+  .principal-subtitle {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+  }
+}
+.objetivos-responsive{
+  display: none;
+}
+.objetivos{
+    width: 100%;
+    height: 1000px;
+    background-color: #00111d;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 200px 200px;
+    grid-template-areas:
+      "title title"
+      "img info"
+      "img info";
+    gap: 40px;
+    padding-top: 10%;
+    .objetivos-title{
+        grid-area: title;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding-right: 5%;
+        h2{
+            font-size: 55px;
+            color: rgb(255, 255, 255);
+        }
+    }
+    .objetivos-img{
+        background-color: rgb(255, 255, 255);
+        grid-area: img;
+        overflow: hidden;
+        border-radius: 40px;
+        img{
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+    .objetivos-info{
+        grid-area: info;
+        display: flex;
+        align-items: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        ul{
+            font-size: 25px;
+            color: white;
+        }
+        strong{
+          @extend %strong-style;
+          font-size: 25px;
+        }
+    }
+}
+.vision{
+    width: 100%;
+    height: 1400px;
+    background: linear-gradient(15deg, #ffffff00 30%, rgb(255, 255, 255) 30%),
+      /* Degradado */
+      url(../assets/images/fondo-main.jpg);
+    /* Imagen de fondo */
+    background-size: fill;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    .vision-title{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        padding-left: 10%;
+        padding-right: 10%;
+        h2{
+            font-size: 55px;
+            color: #00111d;
+        }
+    }
+    .vision-subtitle {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: end;
+        padding-right: 10%;
+        padding-left: 10%;
+        text-align: end;
+        color: #00111d;
+        font-weight: 700;
+        font-size: 20px;
+      }
+}
+.beneficios{
+  width: 100%;
+  height: 800px;
+  background: linear-gradient(135deg, #ffffff00 50%, rgb(255, 255, 255) 50%),
+    /* Degradado */
+    url(../assets/images/pexels-markusspiske-2004161.jpg);
+  /* Imagen de fondo */
+  background-size: cover;
+  background-position: center left;
+  background-repeat: no-repeat;
+  .beneficios-title{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    h2{
+      font-size: 55px;
+    }
+    strong{
+      @extend %strong-style;
+    }
+  }
+  .beneficios-subtitle {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    padding-left: 70%;
+    text-align: end;
+  }
+}
+.beneficios-content {
+  width: 100%;
+  height: 1200px;
+  background-color: #00111d;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-areas:
+    "square1 square1 square4 square4 square5 square6"
+    "square7 square8 square9 square10 square11 square11"
+    "square13 square15 square15 square17 square17 square18";
+  grid-gap: 20px;
+  padding: 40px;
+  padding-top: 5%;
+}
+.square {
+  border-radius: 50px;
+  transition: 0.5 ease;
+  background-color: tomato;
+  padding: 20px;
+  .content {
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50px 60px 80px 900px;
+    }
+  }
+  h2{
+    font-size: 40px;
+    color: white;
+  }
+  p{
+    color: white;
+    text-align: start;
+    font-size: 15px;
+  }
+}
+.square1 {
+  grid-area: square1;
+}
+.square2 {
+  grid-area: square2;
+}
+.square3 {
+  grid-area: square3;
+}
+.square4 {
+  background-color: rgba(255, 99, 71, 0);
+  grid-area: square4;
+}
+.square5 {
+  grid-area: square5;
+  border-radius: 50px 50px 200px 50px;
+}
+.square6 {
+  grid-area: square6;
+  border-radius: 50px 50px 50px 200px;
+}
+.square7 {
+  grid-area: square7;
+  border-radius: 200px 50px 50px;
+}
+.square8 {
+  grid-area: square8;
+}
+.square9 {
+  grid-area: square9;
+}
+.square10 {
+  grid-area: square10;
+  border-radius: 50%;
+  background: radial-gradient(circle, transparent 50%, tomato 50%);
+}
+.square11 {
+  grid-area: square11;
+}
+.square12 {
+  grid-area: square12;
+}
+.square13 {
+  background-color: #007bff00;
+  grid-area: square13;
+}
+.square14 {
+  grid-area: square14;
+}
+.square15 {
+  grid-area: square15;
+}
+.square16 {
+  grid-area: square16;
+}
+.square17 {
+  background-color: #007bff00;
+  grid-area: square17;
+}
+.square18 {
+  grid-area: square18;
+  border-radius: 20px 20px 20px 100px;
+}
+.areas {
+  width: 100%;
+  height: 800px;
+  background: linear-gradient(55deg, #ffffff 50%, rgba(255, 255, 255, 0) 50%),
+    /* Degradado */
+    url(../assets/images/pexels-markusspiske-2004161.jpg);
+  /* Imagen de fondo */
+  background-size: cover;
+  background-position: center left;
+  background-repeat: no-repeat;
+  .areas-title {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    h2 {
+      font-size: 55px;
+    }
+    strong {
+      @extend %strong-style
+    }
+  }
+  .areas-subtitle {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-right: 70%;
+    text-align: start;
+  }
+}
+.areas-content {
+  width: 100%;
+  height: 1800px;
+  display: flex;
+  .margen {
+    width: 20%;
+    height: 100%;
+    background-color: #00111d;
+  }
+  .areas-content-container {
+    width: 80%;
+    height: 100%;
+    background-color: tomato;
+    .areas-content-title {
+      width: 100%;
+      height: 200px;
+      display: flex;
+      align-items: end;
+      justify-content: start;
+      color: white;
+      h2 {
+        font-size: 45px;
+      }
+    }
+    .areas-content-subtitle {
+      width: 100%;
+      height: 200px;
+      display: flex;
+      align-items: start;
+      justify-content: start;
+      text-align: start;
+      p {
+        color: white;
+        font-size: 25px;
+      }
+    }
+  }
+  .areas-content-list {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+    ul {
+      color: white;
+      font-size: 25px;
+    }
+  }
+  .content-secondary{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .card-custom {
+      width: 400px;
+      height: 300px;
+      margin-left: 40px;
+      margin-right: 40px;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 40px;
+      box-shadow: inset 4px 4px 10px rgb(0, 0, 0);
+      transition: box-shadow 0.3s ease;
+      h3 {
+        height: 30%;
+        color: #00111d;
+        font-size: 20px;
+        position: relative;
+      }
+      p {
+        height: 70%;
+        color: #00111d;
+        font-size: 13px;
+        position: relative;
+      }
+    }
+  }
+}
+.proyectos {
+  width: 100%;
+  height: 800px;
+  background: linear-gradient(55deg, #ffffff00 50%, rgb(255, 255, 255) 50%),
+    /* Degradado */
+    url(../assets/images/pexels-markusspiske-2004161.jpg);
+  /* Imagen de fondo */
+  background-size: cover;
+  background-position: center left;
+  background-repeat: no-repeat;
+  .proyectos-title {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    h2 {
+      font-size: 55px;
+    }
+    strong {
+      @extend %strong-style
+    }
+  }
+  .proyectos-subtitle {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    padding-left: 70%;
+    text-align: end;
+  }
+}
+.proyectos-content {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: row-reverse;
+  .proyectos-container {
+    width: 80%;
+    height: 100%;
+    background-color: #007bff;
+    .proyectos-content-title {
+      width: 100%;
+      height: 100px;
+      color: white;
+      h2 {
+        font-size: 45px;
+      }
+    }
+    .proyectos-content-subtitle {
+      width: 100%;
+      height: 300px;
+      color: white;
+      p {
+        font-size: 25px;
+      }
+    }
+  }
+  .proyectos-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    grid-template-areas:
+      "grid1 grid2 grid3";
+    grid-gap: 20px;
+    padding: 40px;
+    .grid-container {
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: background-color 0.5s ease;
+      .grid-title {
+        width: 100%;
+        height: 100%;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        h2 {
+          color: white;
+        }
+      }
+      .hidden-text {
+        display: none;
+        font-size: 15px;
+        color: #666;
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+      }
+      
+    }
+    .grid1 {
+      grid-area: grid1;
+      background-color: #00111d;
+      border-radius: 20px 80px 20px 80px;
+    }
+    
+    .grid2 {
+      grid-area: grid2;
+      background-color: #00111d;
+      border-radius: 80px 80px 80px 80px;
+    }
+    
+    .grid3 {
+      grid-area: grid3;
+      background-color: #00111d;
+      border-radius: 80px 20px 80px 20px;
+    }
+    
+  }
+  .grid-container:hover {
+    background-color: #ffffff;
+  }
+  
+  .grid-container:hover h2 {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .grid-container:hover .hidden-text {
+    display: block;
+  }
+}
+.contact-main {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  .contact-container {
+    width: 50%;
+    background-color: #00121f;
+    padding: 40px;
+    .contact-title {
+      width: 100%;
+      height: 200px;
+      display: flex;
+      align-items: end;
+      justify-content: center;
+      h2 {
+        font-size: 45px;
+        color: white;
+        font-weight: 700;
+      }
+    }
+    .contact-subtitle {
+      width: 100%;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      p {
+        font-size: 20px;
+        color: white;
+        font-weight: 700;
+        text-align: center;
+      }
+    }
+  }
+  .contact-img {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 400px;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+  .contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+    height: 100%;
+    .form-container {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      form {
+        display: flex;
+        flex-direction: column;
+        label {
+          margin-bottom: 5px;
+          font-weight: bold;
+        }
+        input,textarea {
+          padding: 10px;
+          margin-bottom: 15px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          font-size: 16px;
+          width: 100%;
+        }
+        button {
+          padding: 10px;
+          background-color: #00121f;
+          color: #fff;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 16px;
+        }
+        button:hover {
+          background-color: #00121f;
+        }        
+      }
+    }
+  }
+}
+@media (max-width: 764px) {
+  .principal {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(10deg, #00121fb2 50%, #ffffff 50%),
+      /* Degradado */
+      url(../assets/images/pexels-markusspiske-2004161.jpg);
+    /* Imagen de fondo */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    .principal-title {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      text-align: start;
+      padding-left: 5%;
+      padding-right: 15%;
+      h1 {
+          font-size: 75px;
+          background: url('../assets/images/pexels-markusspiske-2004161.jpg');
+          -webkit-background-clip: text;
+          background-clip: text;
+          background-size: cover;  
+          color: transparent;
+          font-weight: bold;
+          color: #007ad165;
+        }
+        strong {
+          @extend %strong-style
+        }
+    }
+    .principal-subtitle {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      color: white;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
+
+  .objetivos-responsive{
+    width: 100%;
+    height: 600px;
+    background-color: #004679;
+    display: block;
+    padding-left: 5%;
+    padding-right: 5%;
+    .objetivos-responsive-title{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 200px;
+      h2{
+        color: white;
+        font-weight: 600;
+        font-size: 35px;
+      }
+    }
+    .accordion-button.collapsed {
+      background-color: white; 
+      color: black; 
+    }
+    .accordion-button h2{
+      font-size: 20px;
+      color: #007bff;
+    }
+  }
+
+  .objetivos {
+    display: none;
+  }
+  .vision{
+    width: 100%;
+    height: 1100px;
+    svg{
+      display: none;
+    }
+    .vision-title{
+      padding-left: 5%;
+      h2{
+        font-size: 75px;
+        background: url('../assets/images/pexels-markusspiske-2004161.jpg');
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-size: cover;  
+        color: transparent;
+        font-weight: bold;
+        color: #007ad165;
+      }
+    }
+    .vision-subtitle{
+      padding-left: 0;
+      p{
+        font-size: 15px;
+        text-align: start;
+        padding-left: 5%;
+      }
+    }
+  }
+  .contact-main {
+    width: 100%;
+    height: 1700px;
+    display: flex;
+    flex-direction: column;
+    .contact-container {
+      width: 100%;
+      background-color: #00121f;
+      padding: 40px;
+      .contact-title {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h2 {
+          font-size: 45px;
+          color: white;
+          font-weight: 700;
+          background: url('../assets/images/pexels-markusspiske-2004161.jpg');
+          -webkit-background-clip: text;
+          background-clip: text;
+          background-size: cover;  
+          color: transparent;
+          font-weight: bold;
+          color: #82cbffb0;
+        }
+      }
+      .contact-subtitle {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        p {
+          font-size: 20px;
+          color: white;
+          font-weight: 700;
+          text-align: center;
+        }
+      }
+      .contact-img {
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 300px;
+          height: auto;
+          object-fit: cover;
+        }
+      }
+    }
+    .contact-form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      width: 100%;
+      height: 100%;
+      .form-container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+      }
+    }
+  }
+  .beneficios{
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(5deg, #ffffff00 20%, rgb(255, 255, 255) 20%),
+      /* Degradado */
+      url(../assets/images/pexels-markusspiske-2004161.jpg);
+    /* Imagen de fondo */
+    background-size: cover;
+    background-position: center left;
+    background-repeat: no-repeat;
+    padding-top: 30%;
+    .beneficios-title {
+      width: 100%;
+      height: 20%;
+      display: flex;
+      align-items: start;
+      justify-content: end;
+      padding-left: 5%;
+      margin-bottom: 5%;
+      h2 {
+        font-size: 55px;
+      }
+      strong {
+        text-transform: uppercase;
+        color: tomato;
+      }
+    }
+    .beneficios-subtitle {
+      width: 100%;
+      height: 80%;
+      display: flex;
+      align-items: start;
+      justify-content: start;
+      text-align: start;
+      padding: 0;
+      padding-right: 40%;
+      padding-left: 5%;
+    }
+  }
+  .beneficios-content {
+    width: 100%;
+    height: 3000px;
+    background-color: #00111d;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 300px 130px 130px 220px 250px 300px 300px 300px 300px 150px;
+    grid-template-areas: 
+    "square1"
+    "square4"
+    "square5"
+    "square8"
+    "square9"
+    "square6"
+    "square11"
+    "square13"
+    "square15"
+    "square17"
+    "square18";
+    padding: 0;
+    padding-top: 5%;
+    padding: 40px;
+    .square {
+      border-radius: 50px;
+      transition: 0.5 ease;
+      background-color: tomato;
+      h2 {
+        color: white;
+        text-align: start;
+        font-size: 30px;
+      }
+      p {
+        color: white;
+        text-align: start;
+        font-size: 15px;
+      }
+      .content {
+        width: 100%;
+        height: 100%;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 50px 60px 80px 900px;
+        }
+      }
+    }
+    .square1 {
+      grid-area: square1;
+      padding: 20px;
+    }
+    .square4 {
+      background-color: rgba(255, 99, 71, 0);
+      grid-area: square4;
+    }
+    .square5 {
+      grid-area: square5;
+      padding: 20px;
+      border-radius: 50px 50px 200px 50px;
+    }
+    .square6 {
+      grid-area: square6;
+      border-radius: 50px 50px 50px 200px;
+      background-color: #00111d00;
+      img {
+        border-radius: 20px 20px 20px 200px;
+      }
+    }
+    .square7 {
+      display: none;
+    }
+    .square8 {
+      grid-area: square8;
+      padding: 20px;
+    }
+    .square9 {
+      grid-area: square9;
+      padding: 20px;
+      p {
+        color: white;
+        text-align: start;
+        font-size: 15px;
+      }
+    }
+    .square10 {
+      display: none;
+    }
+    .square11 {
+      grid-area: square11;
+      padding: 20px;
+    }
+    .square13 {
+      background-color: #007bff00;
+      grid-area: square13;
+      img {
+        border-radius: 20px 200px 20px 20px;
+      }
+    }
+    .square15 {
+      grid-area: square15;
+      padding: 20px;
+    }
+    .square17 {
+      background-color: #007bff00;
+      grid-area: square17;
+    }    
+    .square18 {
+      grid-area: square18;
+      padding: 20px;
+      border-radius: 20px 20px 20px 100px;
+    }
+  }
+  .areas {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(5deg, #ffffff00 20%, rgb(255, 255, 255) 20%),
+      /* Degradado */
+      url(../assets/images/pexels-markusspiske-2004161.jpg);
+    /* Imagen de fondo */
+    background-size: cover;
+    background-position: center left;
+    background-repeat: no-repeat;
+    padding-top: 30%;
+    .areas-title {
+      width: 100%;
+      height: 20%;
+      display: flex;
+      align-items: start;
+      justify-content: start;
+      padding-left: 5%;
+      margin-bottom: 5%;
+      h2 {
+        font-size: 55px;
+      }
+    }
+    .areas-subtitle {
+      width: 100%;
+      height: 80%;
+      display: flex;
+      align-items: start;
+      justify-content: start;
+      text-align: start;
+      padding: 0;
+      padding-right: 40%;
+      padding-left: 5%;
+    }
+  }
+  .margen{
+    display: none;
+  }
+  .areas-content {
+    width: 100%;
+    height: 2300px;
+    .areas-content-container {
+      width: 100%;
+      height: 100%;
+      background-color: tomato;
+      .areas-content-list{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        text-align: start;
+        margin-top: 15%;
+        ul {
+          color: white;
+          font-size: 15px;
+        }
+      }
+      .areas-content-title {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: end;
+        justify-content: start;
+        color: white;
+        h2 {
+          font-size: 45px;
+        }
+      }
+      .areas-content-subtitle {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        text-align: start;
+        p {
+          color: white;
+          font-size: 15px;
+        }
+      }  
+    }
+    .content-secondary{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 15%;
+      .card2{
+        margin-top: 5%;
+      }
+      .card-custom {
+        width: 500px;
+        height: 300px;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 40px;
+        box-shadow: inset 4px 4px 10px rgb(0, 0, 0);
+        transition: box-shadow 0.3s ease;
+        h3 {
+          height: 30%;
+          color: #00111d;
+          font-size: 20px;
+          position: relative;
+        }
+        p {
+          height: 70%;
+          color: #00111d;
+          font-size: 13px;
+          position: relative;
+        }
+      }
+    }
+  }
+  .areas-content-title {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    color: white;
+    h2 {
+      font-size: 35px;
+    }
+  }
+  .proyectos{
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(5deg, #ffffff00 20%, rgb(255, 255, 255) 20%),
+      /* Degradado */
+      url(../assets/images/pexels-markusspiske-2004161.jpg);
+    /* Imagen de fondo */
+    background-size: cover;
+    background-position: center left;
+    background-repeat: no-repeat;
+    padding-top: 30%;
+    .proyectos-title {
+      width: 100%;
+      height: 20%;
+      display: flex;
+      align-items: start;
+      justify-content: start;
+      padding-left: 5%;
+      margin-bottom: 5%;
+      h2 {
+        font-size: 55px;
+      }
+    }
+    .proyectos-subtitle{
+      width: 100%;
+      height: 200px;
+      display: flex;
+      align-items: start;
+      justify-content: start;
+      text-align: start;
+      padding: 0;
+      padding-left: 5%;
+    }
+  }
+  .proyectos-content {
+    width: 100%;
+    height: 1800px;
+    display: flex;
+    flex-direction: row-reverse;
+    .margen{
+      display: none;
+    }
+    .proyectos-container {
+      width: 100%;
+      height: 100%;
+      background-color: #007bff;
+      .proyectos-content-title {
+        width: 100%;
+        height: 100px;
+        color: white;
+        h2 {
+          font-size: 30px;
+        }
+      }
+      .proyectos-content-subtitle {
+        width: 100%;
+        height: 300px;
+        color: white;
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+    .proyectos-grid {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 300px 300px 300px;
+      grid-template-areas:
+        "grid1"
+        "grid2"
+        "grid3";
+      grid-gap: 20px;
+      padding: 40px;
+      .grid-container {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: background-color 0.5s ease;
+        .grid-title {
+          width: 100%;
+          height: 100%;
+          padding: 40px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          h2 {
+            color: white;
+          }
+        }
+        .hidden-text {
+          display: none;
+          font-size: 15px;
+          color: #666;
+          text-align: center;
+          padding: 20px;
+          width: 100%;
+        }
+        
+      }
+      .grid1 {
+        grid-area: grid1;
+        background-color: #00111d;
+        border-radius: 20px 80px 20px 80px;
+      }
+      
+      .grid2 {
+        grid-area: grid2;
+        background-color: #00111d;
+        border-radius: 80px 80px 80px 80px;
+      }
+      
+      .grid3 {
+        grid-area: grid3;
+        background-color: #00111d;
+        border-radius: 80px 20px 80px 20px;
+      }
+      
+    }
+    .grid-container:hover {
+      background-color: #ffffff;
+    }
+    
+    .grid-container:hover h2 {
+      opacity: 0;
+      position: absolute;
+      z-index: -1;
+    }
+    
+    .grid-container:hover .hidden-text {
+      display: block;
+    }
+  }
+}

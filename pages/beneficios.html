@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/styles.css" />
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,7 +24,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
-
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <title>Beneficios</title>
   </head>
   <body>
@@ -78,7 +79,7 @@
       </div>
     </section>
     <section class="beneficios-content">
-      <div class="square square1">
+      <div class="square square1" data-aos="fade-up">
         <div class="square1-content">
           <h2>Reducción de Tiempos de Espera en Trámites</h2>
           <p>
@@ -96,29 +97,29 @@
           <img src="../assets/images/pexels-fauxels-3184357.jpg" alt="">
         </div>
       </div>
-      <div class="square square5">
+      <div class="square square5" data-aos="flip-left">
         <div class="square5-content">
           <h2>Mayor Confianza y Seguridad en los Datos</h2>
         </div>
       </div>
-      <div class="square square6">
+      <div class="square square6" data-aos="flip-left">
         <div class="square6-content content">
           <img src="../assets/images/pexels-olly-3760089.jpg" alt="">
         </div>
       </div>
-      <div class="square square7"></div>
-      <div class="square square8">
+      <div class="square square7"> </div>
+      <div class="square square8" data-aos="flip-left">
         <div class="square8-content">
           <h2>Participación Ciudadana Más Activa</h2>
         </div>
       </div>
-      <div class="square square9">
+      <div class="square square9" data-aos="fade-up">
         <div class="square9-content">
           <p>Las plataformas digitales impulsadas por IA permitirán una participación más activa de los ciudadanos en la vida pública. A través de consultas, votaciones y propuestas online, los ciudadanos tendrán un canal directo para influir en las decisiones del municipio, haciendo que la administración sea más democrática y colaborativa.</p>
         </div>
       </div>
       <div class="square square10"></div>
-      <div class="square square11">
+      <div class="square square11" data-aos="fade-up">
         <div class="square11-content">
           <h2>Mejora en la Atención al Ciudadano</h2>
           <p>La implementación de chatbots y asistentes virtuales garantizará una atención continua las 24 horas del día, los 7 días de la semana. Los ciudadanos podrán obtener respuestas a sus consultas y gestionar trámites sin depender de los horarios de oficina, lo que facilita la interacción con el municipio desde cualquier lugar y en cualquier momento.</p>
@@ -129,7 +130,7 @@
           <img src="../assets/images/pexels-cookiecutter-1148820.jpg" alt="">
         </div>
       </div>
-      <div class="square square15">
+      <div class="square square15" data-aos="fade-up">
         <div class="square15-content">
           <h2>Transparencia y Toma de Decisiones Basada en Datos</h2>
           <p>Al usar sistemas de análisis de datos en tiempo real, la toma de decisiones en el municipio será más transparente y estará fundamentada en información precisa. Esto no solo permitirá una mejor planificación urbana, sino que también fomentará la confianza de los ciudadanos al asegurar que las políticas y medidas adoptadas por el gobierno local están basadas en evidencia y no en decisiones subjetivas.</p>
@@ -185,5 +186,13 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        // Inicializar AOS
+        AOS.init({
+            duration: 1200, // Duración de la animación en milisegundos
+            once: true,     // La animación solo ocurre una vez
+        });
+    </script>
   </body>
 </html>
