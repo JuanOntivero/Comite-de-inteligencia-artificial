@@ -1,0 +1,124 @@
+
+$primary-color: #062735;
+$secondary-color: #00111d;
+$highlight-color: #bddb6b;
+$text-color: white;
+$background-light: #ffffff;
+
+
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1800px;
+
+.newsletter{
+    width: 100%;
+    height: 400px;
+    background-color: $highlight-color;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "title sub1 sub2 img";
+    padding-left: 10%;
+    padding-right: 10%;
+    .newsletter-title{
+        grid-area: title;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h2{
+            font-size: 55px;
+            color: $text-color;
+            font-weight: 700;
+          }
+      }
+      .newsletter-sub1{
+        grid-area: sub1;
+        padding: 40px;
+        padding-right: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+      }
+      .newsletter-sub1 p{
+        font-size: 17px;
+        color: $text-color;
+        text-align: start;
+        font-weight: 700;
+      }
+      .newsletter-sub2{
+        grid-area: sub2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .buttom-news{
+        width: 100%;
+        height: 60px;
+        background-color: #00111d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        transition: 0.5s;
+        a{
+            font-size: 20px;
+            color: $text-color;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 700;
+            text-align: center;
+          }
+          &:hover{
+            background-color: #0080db;
+          }
+      }
+      .newsletter-img{
+        grid-area: img;
+        background-image: url(../assets/images/Online\ world-bro.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        overflow: hidden;
+      }
+  }
+  .footer {
+    width: 100%;
+    background-color: #00111d;
+    padding: 20px 10%;
+    color: #ffffff; 
+    text-align: center;
+  
+    .footer-container {
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+  
+      p {
+        font-size: 14px; 
+      }
+  
+      .footer-socials {
+        display: flex;
+        gap: 15px; 
+  
+        .social-icon {
+          font-size: 20px; 
+          color: #ffffff; 
+          transition: color 0.3s, transform 0.3s; 
+  
+          &:hover {
+            color: $highlight-color; 
+            transform: scale(1.2); 
+          }
+        }
+      }
+    }
+  }
+  
+  
