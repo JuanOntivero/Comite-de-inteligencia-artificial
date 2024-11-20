@@ -263,7 +263,7 @@ body {
   width: 50%;
   height: 100%;
   background-color: #00111d;
-  background: linear-gradient(90deg, rgba(0, 17, 29, 0.662745098) 25%, rgba(6, 39, 53, 0.7254901961) 90%), url("../images/dall-e3.webp");
+  background: linear-gradient(90deg, rgba(0, 17, 29, 0.662745098) 25%, rgba(6, 39, 53, 0.7254901961) 90%), url(../images/dall-e3.webp);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -1314,7 +1314,7 @@ body {
     width: 60%;
     height: 100%;
     background-color: #00111d;
-    background: linear-gradient(90deg, rgba(0, 17, 29, 0.662745098) 25%, rgba(6, 39, 53, 0.3764705882) 90%), url(../assets/images/dall-e3.webp);
+    background: linear-gradient(90deg, rgba(0, 17, 29, 0.662745098) 25%, rgba(6, 39, 53, 0.3764705882) 90%), url(../images/dall-e3.webp);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
