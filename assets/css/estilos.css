@@ -409,7 +409,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  background-image: url("../images/Innovation-amico.png");
+  background-image: url(../images/Innovation-amico.png);
   background-size: 500px;
   background-position: center right;
   background-repeat: no-repeat;
@@ -470,7 +470,7 @@ body {
 }
 .beneficios-content .square1 {
   grid-area: square1;
-  background: linear-gradient(160deg, rgba(0, 17, 29, 0.6156862745) 40%, rgba(81, 180, 189, 0.6352941176) 90%), url(../assets/images/pexels-asphotograpy-518244.jpg);
+  background: linear-gradient(160deg, rgba(0, 17, 29, 0.6156862745) 40%, rgba(81, 180, 189, 0.6352941176) 90%), url(../images/pexels-asphotograpy-518244.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -510,7 +510,7 @@ body {
   grid-area: square18;
   padding: 20px;
   border-radius: 20px 20px 20px 100px;
-  background: linear-gradient(160deg, rgba(0, 17, 29, 0.3294117647) 40%, #51b4bd 100%), url(../assets/images/pexels-olly-3760089.jpg);
+  background: linear-gradient(160deg, rgba(0, 17, 29, 0.3294117647) 40%, #51b4bd 100%), url(../images/pexels-olly-3760089.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -774,7 +774,7 @@ body {
   grid-template-rows: 2fr 1fr 1fr;
   grid-template-areas: "title" "subtitle" "img";
   background-color: #062735;
-  background: linear-gradient(-5deg, #062735 25%, rgba(6, 39, 53, 0.8784313725) 25%), url(../assets/images/transparencia-fondo.webp);
+  background: linear-gradient(-5deg, #062735 25%, rgba(6, 39, 53, 0.8784313725) 25%), url(../images/transparencia-fondo.webp);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -903,7 +903,7 @@ body {
   height: 500px;
   background-color: #ffffff;
   background-color: #00111d;
-  background: linear-gradient(0deg, rgba(6, 39, 53, 0.6431372549) 5%, rgba(6, 39, 53, 0.6431372549) 5%), url(../assets/images/pexels-darshan394-1044329.jpg);
+  background: linear-gradient(0deg, rgba(6, 39, 53, 0.6431372549) 5%, rgba(6, 39, 53, 0.6431372549) 5%), url(../images/pexels-darshan394-1044329.jpg);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -974,7 +974,7 @@ body {
 .participacion-content {
   width: 100%;
   height: 2000px;
-  background: linear-gradient(170deg, #bddb6b 20%, rgba(0, 61, 87, 0.631372549) 15%), url(../assets/images/pexels-darshan394-1044329.jpg);
+  background: linear-gradient(170deg, #bddb6b 20%, rgba(0, 61, 87, 0.631372549) 15%), url(../images/pexels-darshan394-1044329.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1115,7 +1115,7 @@ body {
   height: 500px;
   background-color: #ffffff;
   background-color: #00111d;
-  background: linear-gradient(0deg, #062735 25%, rgba(6, 39, 53, 0.6431372549) 55%), url(../assets/images/pexels-sevenstormphotography-443383.jpg);
+  background: linear-gradient(0deg, #062735 25%, rgba(6, 39, 53, 0.6431372549) 55%), url(../images/pexels-sevenstormphotography-443383.jpg);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -1180,7 +1180,7 @@ body {
 .educacion-terciary {
   width: 100%;
   height: 1800px;
-  background: linear-gradient(0deg, #007fb6 25%, rgba(6, 39, 53, 0.6431372549) 55%), url(../assets/images/pexels-sevenstormphotography-443383.jpg);
+  background: linear-gradient(0deg, #007fb6 25%, rgba(6, 39, 53, 0.6431372549) 55%), url(../images/pexels-sevenstormphotography-443383.jpg);
   background-size: cover;
   background-position: center bottom;
 }
@@ -1235,28 +1235,28 @@ body {
 }
 .educacion-terciary .edu-grid .capacitacion {
   grid-area: capacitacion;
-  background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../assets/images/pexels-hillaryfox-1595385.jpg);
+  background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../images/pexels-hillaryfox-1595385.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .educacion-terciary .edu-grid .recursos {
   grid-area: recursos;
-  background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../assets/images/pexels-goumbik-590020.jpg);
+  background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(.../images/pexels-goumbik-590020.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .educacion-terciary .edu-grid .webinars {
   grid-area: webinars;
-  background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../assets/images/fondo-main.jpg);
+  background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../images/fondo-main.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .educacion-terciary .edu-grid .colaboracion {
   grid-area: colaboracion;
-  background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../assets/images/pexels-markusspiske-2004161.jpg);
+  background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../images/pexels-markusspiske-2004161.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1474,7 +1474,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    background-image: url(../assets/images/Innovation-amico.png);
+    background-image: url(../images/Innovation-amico.png);
     background-size: 400px;
     background-position: center right;
     background-repeat: no-repeat;
@@ -1533,7 +1533,7 @@ body {
   }
   .beneficios-content .square1 {
     grid-area: square1;
-    background: linear-gradient(160deg, rgba(0, 17, 29, 0.6156862745) 40%, rgba(60, 60, 59, 0.5568627451) 90%), url(../assets/images/pexels-asphotograpy-518244.jpg);
+    background: linear-gradient(160deg, rgba(0, 17, 29, 0.6156862745) 40%, rgba(60, 60, 59, 0.5568627451) 90%), url(../images/pexels-asphotograpy-518244.jpg);
     background-position: center;
     background-size: cover;
   }
@@ -1573,7 +1573,7 @@ body {
     grid-area: square18;
     padding: 20px;
     border-radius: 20px 20px 20px 100px;
-    background: linear-gradient(160deg, rgba(0, 17, 29, 0.6901960784) 40%, rgba(60, 60, 59, 0.4392156863) 90%), url(../assets/images/pexels-olly-3760089.jpg);
+    background: linear-gradient(160deg, rgba(0, 17, 29, 0.6901960784) 40%, rgba(60, 60, 59, 0.4392156863) 90%), url(../images/pexels-olly-3760089.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1784,7 +1784,7 @@ body {
   .newsletter .newsletter-img {
     height: 300px;
     grid-area: img;
-    background-image: url(../assets/images/Online\ world-bro.png);
+    background-image: url(../images/Online\ world-bro.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1798,7 +1798,7 @@ body {
   .participacion-content {
     width: 100%;
     height: 2000px;
-    background: linear-gradient(170deg, #bddb6b 20%, rgba(0, 61, 87, 0.631372549) 15%), url(../assets/images/pexels-darshan394-1044329.jpg);
+    background: linear-gradient(170deg, #bddb6b 20%, rgba(0, 61, 87, 0.631372549) 15%), url(../images/pexels-darshan394-1044329.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -1936,7 +1936,7 @@ body {
   .educacion-terciary {
     width: 100%;
     height: 1800px;
-    background: linear-gradient(0deg, #007fb6 25%, rgba(6, 39, 53, 0.6431372549) 55%), url(../assets/images/pexels-sevenstormphotography-443383.jpg);
+    background: linear-gradient(0deg, #007fb6 25%, rgba(6, 39, 53, 0.6431372549) 55%), url(../images/pexels-sevenstormphotography-443383.jpg);
     background-size: cover;
     background-position: center bottom;
   }
@@ -1991,28 +1991,28 @@ body {
   }
   .educacion-terciary .edu-grid .capacitacion {
     grid-area: capacitacion;
-    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../assets/images/pexels-hillaryfox-1595385.jpg);
+    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../images/pexels-hillaryfox-1595385.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   .educacion-terciary .edu-grid .recursos {
     grid-area: recursos;
-    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../assets/images/pexels-goumbik-590020.jpg);
+    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../images/pexels-goumbik-590020.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   .educacion-terciary .edu-grid .webinars {
     grid-area: webinars;
-    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../assets/images/fondo-main.jpg);
+    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../images/fondo-main.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   .educacion-terciary .edu-grid .colaboracion {
     grid-area: colaboracion;
-    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../assets/images/pexels-markusspiske-2004161.jpg);
+    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../images/pexels-markusspiske-2004161.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2059,7 +2059,7 @@ body {
   .principal {
     width: 100%;
     height: 900px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7176470588) 20%, rgba(0, 0, 0, 0.7176470588) 20%, rgba(0, 0, 0, 0.7176470588) 80%), url(../assets/images/pexels-cookiecutter-1148820.jpg); /* Imagen de fondo */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7176470588) 20%, rgba(0, 0, 0, 0.7176470588) 20%, rgba(0, 0, 0, 0.7176470588) 80%), url(../images/pexels-cookiecutter-1148820.jpg); /* Imagen de fondo */
     background-size: cover;
     background-position: center left;
     background-repeat: no-repeat;
@@ -2242,7 +2242,7 @@ body {
     width: 40%;
     height: 100%;
     object-fit: cover;
-    background-image: url(../assets/images/Innovation-amico.png);
+    background-image: url(../images/Innovation-amico.png);
     background-size: contain;
     background-position: center right;
     background-repeat: no-repeat;
@@ -2302,7 +2302,7 @@ body {
   }
   .beneficios-content .square1 {
     grid-area: square1;
-    background: linear-gradient(160deg, rgba(0, 17, 29, 0.6156862745) 40%, rgba(60, 60, 59, 0.5568627451) 90%), url(../assets/images/pexels-asphotograpy-518244.jpg);
+    background: linear-gradient(160deg, rgba(0, 17, 29, 0.6156862745) 40%, rgba(60, 60, 59, 0.5568627451) 90%), url(../images/pexels-asphotograpy-518244.jpg);
     background-position: center;
     background-size: cover;
   }
@@ -2352,7 +2352,7 @@ body {
     grid-area: square18;
     padding: 20px;
     border-radius: 20px 20px 20px 100px;
-    background: linear-gradient(160deg, rgba(0, 17, 29, 0.6901960784) 40%, rgba(60, 60, 59, 0.4392156863) 90%), url(../assets/images/pexels-olly-3760089.jpg);
+    background: linear-gradient(160deg, rgba(0, 17, 29, 0.6901960784) 40%, rgba(60, 60, 59, 0.4392156863) 90%), url(../images/pexels-olly-3760089.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2521,7 +2521,7 @@ body {
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "title" "subtitle" "img";
     background-color: #00111d;
-    background: linear-gradient(-5deg, #062735 25%, rgba(6, 39, 53, 0.8784313725) 25%), url(../assets/images/transparencia-fondo.webp);
+    background: linear-gradient(-5deg, #062735 25%, rgba(6, 39, 53, 0.8784313725) 25%), url(../images/transparencia-fondo.webp);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -2639,7 +2639,7 @@ body {
     height: 300px;
     background-color: white;
     background-color: #00111d;
-    background: linear-gradient(0deg, #bddb6b 5%, rgba(6, 39, 53, 0.6431372549) 45%), url(../assets/images/pexels-darshan394-1044329.jpg);
+    background: linear-gradient(0deg, #bddb6b 5%, rgba(6, 39, 53, 0.6431372549) 45%), url(../images/pexels-darshan394-1044329.jpg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -2726,7 +2726,7 @@ body {
     width: 100%;
     height: 1000px;
     padding-top: 5%;
-    background: linear-gradient(170deg, rgba(0, 61, 87, 0.631372549) 10%, rgba(0, 61, 87, 0.631372549) 10%), url(../assets/images/pexels-darshan394-1044329.jpg);
+    background: linear-gradient(170deg, rgba(0, 61, 87, 0.631372549) 10%, rgba(0, 61, 87, 0.631372549) 10%), url(../images/pexels-darshan394-1044329.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: grid;
@@ -2853,7 +2853,7 @@ body {
     height: 500px;
     background-color: white;
     background-color: #00111d;
-    background: linear-gradient(0deg, #062735 25%, rgba(6, 39, 53, 0.6431372549) 55%), url(../assets/images/pexels-sevenstormphotography-443383.jpg);
+    background: linear-gradient(0deg, #062735 25%, rgba(6, 39, 53, 0.6431372549) 55%), url(../images/pexels-sevenstormphotography-443383.jpg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -2920,7 +2920,7 @@ body {
   .educacion-terciary {
     width: 100%;
     height: 2400px;
-    background: linear-gradient(0deg, #007fb6 25%, rgba(6, 39, 53, 0.6431372549) 55%), url(../assets/images/pexels-sevenstormphotography-443383.jpg);
+    background: linear-gradient(0deg, #007fb6 25%, rgba(6, 39, 53, 0.6431372549) 55%), url(../images/pexels-sevenstormphotography-443383.jpg);
     background-size: cover;
     background-position: center bottom;
   }
@@ -2975,28 +2975,28 @@ body {
   }
   .educacion-terciary .edu-grid .capacitacion {
     grid-area: capacitacion;
-    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../assets/images/pexels-hillaryfox-1595385.jpg);
+    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../images/pexels-hillaryfox-1595385.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   .educacion-terciary .edu-grid .recursos {
     grid-area: recursos;
-    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../assets/images/pexels-goumbik-590020.jpg);
+    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../images/pexels-goumbik-590020.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   .educacion-terciary .edu-grid .webinars {
     grid-area: webinars;
-    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../assets/images/fondo-main.jpg);
+    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../images/fondo-main.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   .educacion-terciary .edu-grid .colaboracion {
     grid-area: colaboracion;
-    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../assets/images/pexels-markusspiske-2004161.jpg);
+    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../images/pexels-markusspiske-2004161.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -3066,7 +3066,7 @@ body {
   }
   .newsletter .newsletter-img {
     grid-area: img;
-    background-image: url(../assets/images/Online\ world-bro.png);
+    background-image: url(../images/Online\ world-bro.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -3122,7 +3122,7 @@ body {
     width: 350px;
     height: 150px;
     overflow: hidden;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 10%, rgba(77, 228, 255, 0) 20%), url(../assets/images/pexels-tara-winstead-8386369.jpg);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 10%, rgba(77, 228, 255, 0) 20%), url(../images/pexels-tara-winstead-8386369.jpg);
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3228,7 +3228,7 @@ body {
   .principal {
     width: 100%;
     height: 900px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7176470588) 20%, rgba(0, 0, 0, 0.7176470588) 20%, rgba(0, 0, 0, 0.7176470588) 80%), url(../assets/images/pexels-cookiecutter-1148820.jpg); /* Imagen de fondo */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7176470588) 20%, rgba(0, 0, 0, 0.7176470588) 20%, rgba(0, 0, 0, 0.7176470588) 80%), url(../images/pexels-cookiecutter-1148820.jpg); /* Imagen de fondo */
     background-size: cover;
     background-position: center left;
     background-repeat: no-repeat;
@@ -3411,7 +3411,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    background-image: url(../assets/images/Innovation-amico.png);
+    background-image: url(../images/Innovation-amico.png);
     background-size: contain;
     background-position: center right;
     background-repeat: no-repeat;
@@ -3470,7 +3470,7 @@ body {
   }
   .beneficios-content .square1 {
     grid-area: square1;
-    background: linear-gradient(160deg, rgba(0, 17, 29, 0.6156862745) 40%, rgba(60, 60, 59, 0.5568627451) 90%), url(../assets/images/pexels-asphotograpy-518244.jpg);
+    background: linear-gradient(160deg, rgba(0, 17, 29, 0.6156862745) 40%, rgba(60, 60, 59, 0.5568627451) 90%), url(../images/pexels-asphotograpy-518244.jpg);
     background-position: center;
     background-size: cover;
   }
@@ -3520,7 +3520,7 @@ body {
     grid-area: square18;
     padding: 20px;
     border-radius: 20px 20px 20px 100px;
-    background: linear-gradient(160deg, rgba(0, 17, 29, 0.6901960784) 40%, rgba(60, 60, 59, 0.4392156863) 90%), url(../assets/images/pexels-olly-3760089.jpg);
+    background: linear-gradient(160deg, rgba(0, 17, 29, 0.6901960784) 40%, rgba(60, 60, 59, 0.4392156863) 90%), url(../images/pexels-olly-3760089.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3687,7 +3687,7 @@ body {
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "title" "subtitle" "img";
     background-color: #00111d;
-    background: linear-gradient(-5deg, #062735 25%, rgba(6, 39, 53, 0.8784313725) 25%), url(../assets/images/transparencia-fondo.webp);
+    background: linear-gradient(-5deg, #062735 25%, rgba(6, 39, 53, 0.8784313725) 25%), url(../images/transparencia-fondo.webp);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -3805,7 +3805,7 @@ body {
     height: 300px;
     background-color: white;
     background-color: #00111d;
-    background: linear-gradient(0deg, #bddb6b 5%, rgba(6, 39, 53, 0.6431372549) 45%), url(../assets/images/pexels-darshan394-1044329.jpg);
+    background: linear-gradient(0deg, #bddb6b 5%, rgba(6, 39, 53, 0.6431372549) 45%), url(../images/pexels-darshan394-1044329.jpg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -3892,7 +3892,7 @@ body {
     width: 100%;
     height: 1600px;
     padding-top: 80px;
-    background: linear-gradient(170deg, rgba(0, 61, 87, 0.631372549) 10%, rgba(0, 61, 87, 0.631372549) 10%), url(../assets/images/pexels-darshan394-1044329.jpg);
+    background: linear-gradient(170deg, rgba(0, 61, 87, 0.631372549) 10%, rgba(0, 61, 87, 0.631372549) 10%), url(../images/pexels-darshan394-1044329.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: grid;
@@ -4020,7 +4020,7 @@ body {
     height: 500px;
     background-color: white;
     background-color: #00111d;
-    background: linear-gradient(0deg, #062735 25%, rgba(6, 39, 53, 0.6431372549) 55%), url(../assets/images/pexels-sevenstormphotography-443383.jpg);
+    background: linear-gradient(0deg, #062735 25%, rgba(6, 39, 53, 0.6431372549) 55%), url(../images/pexels-sevenstormphotography-443383.jpg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -4087,7 +4087,7 @@ body {
   .educacion-terciary {
     width: 100%;
     height: 2400px;
-    background: linear-gradient(0deg, #007fb6 25%, rgba(6, 39, 53, 0.6431372549) 55%), url(../assets/images/pexels-sevenstormphotography-443383.jpg);
+    background: linear-gradient(0deg, #007fb6 25%, rgba(6, 39, 53, 0.6431372549) 55%), url(../images/pexels-sevenstormphotography-443383.jpg);
     background-size: cover;
     background-position: center bottom;
   }
@@ -4142,28 +4142,28 @@ body {
   }
   .educacion-terciary .edu-grid .capacitacion {
     grid-area: capacitacion;
-    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../assets/images/pexels-hillaryfox-1595385.jpg);
+    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../images/pexels-hillaryfox-1595385.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   .educacion-terciary .edu-grid .recursos {
     grid-area: recursos;
-    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../assets/images/pexels-goumbik-590020.jpg);
+    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../images/pexels-goumbik-590020.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   .educacion-terciary .edu-grid .webinars {
     grid-area: webinars;
-    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../assets/images/fondo-main.jpg);
+    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../images/fondo-main.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   .educacion-terciary .edu-grid .colaboracion {
     grid-area: colaboracion;
-    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../assets/images/pexels-markusspiske-2004161.jpg);
+    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../images/pexels-markusspiske-2004161.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -4233,7 +4233,7 @@ body {
   }
   .newsletter .newsletter-img {
     grid-area: img;
-    background-image: url(../assets/images/Online\ world-bro.png);
+    background-image: url(../images/Online\ world-bro.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -4292,7 +4292,7 @@ body {
     width: 350px;
     height: 150px;
     overflow: hidden;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 10%, rgba(77, 228, 255, 0) 20%), url(../assets/images/pexels-tara-winstead-8386369.jpg);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 10%, rgba(77, 228, 255, 0) 20%), url(../images/pexels-tara-winstead-8386369.jpg);
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -4398,7 +4398,7 @@ body {
   .principal {
     width: 100%;
     height: 900px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7176470588) 20%, rgba(0, 0, 0, 0.7176470588) 20%, rgba(0, 0, 0, 0.7176470588) 80%), url(../assets/images/pexels-cookiecutter-1148820.jpg); /* Imagen de fondo */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7176470588) 20%, rgba(0, 0, 0, 0.7176470588) 20%, rgba(0, 0, 0, 0.7176470588) 80%), url(../images/pexels-cookiecutter-1148820.jpg); /* Imagen de fondo */
     background-size: cover;
     background-position: center left;
     background-repeat: no-repeat;
@@ -4570,7 +4570,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    background-image: url(../assets/images/Innovation-amico.png);
+    background-image: url(../images/Innovation-amico.png);
     background-size: contain;
     background-position: center right;
     background-repeat: no-repeat;
@@ -4629,7 +4629,7 @@ body {
   }
   .beneficios-content .square1 {
     grid-area: square1;
-    background: linear-gradient(160deg, rgba(0, 17, 29, 0.6156862745) 40%, rgba(60, 60, 59, 0.5568627451) 90%), url(../assets/images/pexels-asphotograpy-518244.jpg);
+    background: linear-gradient(160deg, rgba(0, 17, 29, 0.6156862745) 40%, rgba(60, 60, 59, 0.5568627451) 90%), url(../images/pexels-asphotograpy-518244.jpg);
     background-position: center;
     background-size: cover;
   }
@@ -4679,7 +4679,7 @@ body {
     grid-area: square18;
     padding: 20px;
     border-radius: 20px 20px 20px 100px;
-    background: linear-gradient(160deg, rgba(0, 17, 29, 0.6901960784) 40%, rgba(60, 60, 59, 0.4392156863) 90%), url(../assets/images/pexels-olly-3760089.jpg);
+    background: linear-gradient(160deg, rgba(0, 17, 29, 0.6901960784) 40%, rgba(60, 60, 59, 0.4392156863) 90%), url(../images/pexels-olly-3760089.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -4846,7 +4846,7 @@ body {
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "title" "subtitle" "img";
     background-color: #00111d;
-    background: linear-gradient(-5deg, #062735 25%, rgba(6, 39, 53, 0.8784313725) 25%), url(../assets/images/transparencia-fondo.webp);
+    background: linear-gradient(-5deg, #062735 25%, rgba(6, 39, 53, 0.8784313725) 25%), url(../images/transparencia-fondo.webp);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -4964,7 +4964,7 @@ body {
     height: 300px;
     background-color: white;
     background-color: #00111d;
-    background: linear-gradient(0deg, #bddb6b 5%, rgba(6, 39, 53, 0.6431372549) 45%), url(../assets/images/pexels-darshan394-1044329.jpg);
+    background: linear-gradient(0deg, #bddb6b 5%, rgba(6, 39, 53, 0.6431372549) 45%), url(../images/pexels-darshan394-1044329.jpg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -5051,7 +5051,7 @@ body {
     width: 100%;
     height: 1600px;
     padding-top: 80px;
-    background: linear-gradient(170deg, rgba(0, 61, 87, 0.631372549) 10%, rgba(0, 61, 87, 0.631372549) 10%), url(../assets/images/pexels-darshan394-1044329.jpg);
+    background: linear-gradient(170deg, rgba(0, 61, 87, 0.631372549) 10%, rgba(0, 61, 87, 0.631372549) 10%), url(../images/pexels-darshan394-1044329.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: grid;
@@ -5179,7 +5179,7 @@ body {
     height: 500px;
     background-color: white;
     background-color: #00111d;
-    background: linear-gradient(0deg, #062735 25%, rgba(6, 39, 53, 0.6431372549) 55%), url(../assets/images/pexels-sevenstormphotography-443383.jpg);
+    background: linear-gradient(0deg, #062735 25%, rgba(6, 39, 53, 0.6431372549) 55%), url(../images/pexels-sevenstormphotography-443383.jpg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -5246,7 +5246,7 @@ body {
   .educacion-terciary {
     width: 100%;
     height: 2400px;
-    background: linear-gradient(0deg, #007fb6 25%, rgba(6, 39, 53, 0.6431372549) 55%), url(../assets/images/pexels-sevenstormphotography-443383.jpg);
+    background: linear-gradient(0deg, #007fb6 25%, rgba(6, 39, 53, 0.6431372549) 55%), url(../images/pexels-sevenstormphotography-443383.jpg);
     background-size: cover;
     background-position: center bottom;
   }
@@ -5301,28 +5301,28 @@ body {
   }
   .educacion-terciary .edu-grid .capacitacion {
     grid-area: capacitacion;
-    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../assets/images/pexels-hillaryfox-1595385.jpg);
+    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../images/pexels-hillaryfox-1595385.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   .educacion-terciary .edu-grid .recursos {
     grid-area: recursos;
-    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../assets/images/pexels-goumbik-590020.jpg);
+    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../images/pexels-goumbik-590020.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   .educacion-terciary .edu-grid .webinars {
     grid-area: webinars;
-    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../assets/images/fondo-main.jpg);
+    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../images/fondo-main.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   .educacion-terciary .edu-grid .colaboracion {
     grid-area: colaboracion;
-    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../assets/images/pexels-markusspiske-2004161.jpg);
+    background: linear-gradient(0deg, rgba(6, 39, 53, 0.7725490196) 10%, rgba(6, 39, 53, 0.8274509804) 20%), url(../images/pexels-markusspiske-2004161.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -5392,7 +5392,7 @@ body {
   }
   .newsletter .newsletter-img {
     grid-area: img;
-    background-image: url(../assets/images/Online\ world-bro.png);
+    background-image: url(../images/Online\ world-bro.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -5451,7 +5451,7 @@ body {
     width: 350px;
     height: 150px;
     overflow: hidden;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 10%, rgba(77, 228, 255, 0) 20%), url(../assets/images/pexels-tara-winstead-8386369.jpg);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 10%, rgba(77, 228, 255, 0) 20%), url(../images/pexels-tara-winstead-8386369.jpg);
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;

@@ -101,7 +101,7 @@ body{
         width: 50%;
         height: 100%;
         background-color: #00111d;
-        background: linear-gradient(90deg, #00111da9 25%, #062735b9 90%), url("../images/dall-e3.webp");
+        background: linear-gradient(90deg, #00111da9 25%, #062735b9 90%), url(../images/dall-e3.webp);
         background-size: cover;
         background-position: center top;
         background-repeat: no-repeat;
@@ -248,7 +248,7 @@ body{
         width: 100%;
         height: 100%;
         object-fit: cover;
-        background-image: url("../images/Innovation-amico.png");
+        background-image: url(../images/Innovation-amico.png);
         background-size: 500px;
         background-position: center right;
         background-repeat: no-repeat;
@@ -310,7 +310,7 @@ body{
       .square1 {
         grid-area: square1;
         background: linear-gradient(160deg, #00111d9d 40%, #51b4bda2 90%),
-          url(../assets/images/pexels-asphotograpy-518244.jpg);
+          url(../images/pexels-asphotograpy-518244.jpg);
         background-position: center;
         background-size: cover;
       }
@@ -351,7 +351,7 @@ body{
         padding: 20px;
         border-radius: 20px 20px 20px 100px;
         background: linear-gradient(160deg, #00111d54 40%, #51b4bd 100%),
-          url(../assets/images/pexels-olly-3760089.jpg);
+          url(../images/pexels-olly-3760089.jpg);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -625,7 +625,7 @@ body{
     "subtitle"
     "img";
     background-color: $primary-color;
-    background: linear-gradient(-5deg, $primary-color 25%, #062735e0 25%), url(../assets/images/transparencia-fondo.webp);
+    background: linear-gradient(-5deg, $primary-color 25%, #062735e0 25%), url(../images/transparencia-fondo.webp);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -754,7 +754,7 @@ body{
     height: 500px;
     background-color: $background-light;
     background-color: #00111d;
-    background: linear-gradient(0deg, #062735a4 5%, #062735a4 5%), url(../assets/images/pexels-darshan394-1044329.jpg);
+    background: linear-gradient(0deg, #062735a4 5%, #062735a4 5%), url(../images/pexels-darshan394-1044329.jpg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -826,7 +826,7 @@ body{
   .participacion-content{
     width: 100%;
     height: 2000px;
-    background: linear-gradient(170deg, $highlight-color 20%, #003d57a1 15%), url(../assets/images/pexels-darshan394-1044329.jpg);
+    background: linear-gradient(170deg, $highlight-color 20%, #003d57a1 15%), url(../images/pexels-darshan394-1044329.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     .eventos-content{
@@ -973,7 +973,7 @@ body{
     height: 500px;
     background-color: $background-light;
     background-color: #00111d;
-    background: linear-gradient(0deg, $primary-color 25%, #062735a4 55%), url(../assets/images/pexels-sevenstormphotography-443383.jpg);
+    background: linear-gradient(0deg, $primary-color 25%, #062735a4 55%), url(../images/pexels-sevenstormphotography-443383.jpg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -1039,7 +1039,7 @@ body{
   .educacion-terciary{
     width: 100%;
     height: 1800px;
-    background: linear-gradient(0deg, #007fb6 25%, #062735a4 55%), url(../assets/images/pexels-sevenstormphotography-443383.jpg);
+    background: linear-gradient(0deg, #007fb6 25%, #062735a4 55%), url(../images/pexels-sevenstormphotography-443383.jpg);
     background-size: cover;
     background-position: center bottom;
     .edu-grid{
@@ -1098,7 +1098,7 @@ body{
           .capacitacion{
             grid-area: capacitacion;
             background: linear-gradient(0deg, #062735c5 10%, #062735d3 20%),
-            url(../assets/images/pexels-hillaryfox-1595385.jpg);
+            url(../images/pexels-hillaryfox-1595385.jpg);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -1106,7 +1106,7 @@ body{
           .recursos{
             grid-area: recursos;
             background: linear-gradient(0deg, #062735c5 10%, #062735d3 20%),
-            url(../assets/images/pexels-goumbik-590020.jpg);
+            url(.../images/pexels-goumbik-590020.jpg);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -1114,7 +1114,7 @@ body{
           .webinars{
             grid-area: webinars;
             background: linear-gradient(0deg, #062735c5 10%, #062735d3 20%),
-            url(../assets/images/fondo-main.jpg);
+            url(../images/fondo-main.jpg);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -1122,7 +1122,7 @@ body{
           .colaboracion{
             grid-area: colaboracion;
             background: linear-gradient(0deg, #062735c5 10%, #062735d3 20%),
-            url(../assets/images/pexels-markusspiske-2004161.jpg);
+            url(../images/pexels-markusspiske-2004161.jpg);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -1183,7 +1183,7 @@ body{
       height: 100%;
       background-color: #00111d;
       background: linear-gradient(90deg, #00111da9 25%, #06273560 90%),
-        url(../assets/images/dall-e3.webp);
+        url(../images/dall-e3.webp);
       background-size: cover;
       background-position: center top;
       background-repeat: no-repeat;
@@ -1345,7 +1345,7 @@ body{
       width: 100%;
       height: 100%;
       object-fit: cover;
-      background-image: url(../assets/images/Innovation-amico.png);
+      background-image: url(../images/Innovation-amico.png);
       background-size: 400px;
       background-position: center right;
       background-repeat: no-repeat;
@@ -1412,7 +1412,7 @@ body{
   .square1 {
     grid-area: square1;
     background: linear-gradient(160deg, #00111d9d 40%, #3c3c3b8e 90%),
-      url(../assets/images/pexels-asphotograpy-518244.jpg);
+      url(../images/pexels-asphotograpy-518244.jpg);
     background-position: center;
     background-size: cover;
   }
@@ -1457,7 +1457,7 @@ body{
     padding: 20px;
     border-radius: 20px 20px 20px 100px;
     background: linear-gradient(160deg, #00111db0 40%, #3c3c3b70 90%),
-      url(../assets/images/pexels-olly-3760089.jpg);
+      url(../images/pexels-olly-3760089.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1669,7 +1669,7 @@ body{
     .newsletter-img {
       height: 300px;
       grid-area: img;
-      background-image: url(../assets/images/Online\ world-bro.png);
+      background-image: url(../images/Online\ world-bro.png);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
@@ -1684,7 +1684,7 @@ body{
   .participacion-content{
     width: 100%;
     height: 2000px;
-    background: linear-gradient(170deg, $highlight-color 20%, #003d57a1 15%), url(../assets/images/pexels-darshan394-1044329.jpg);
+    background: linear-gradient(170deg, $highlight-color 20%, #003d57a1 15%), url(../images/pexels-darshan394-1044329.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     .eventos-content{
@@ -1829,7 +1829,7 @@ body{
   .educacion-terciary{
     width: 100%;
     height: 1800px;
-    background: linear-gradient(0deg, #007fb6 25%, #062735a4 55%), url(../assets/images/pexels-sevenstormphotography-443383.jpg);
+    background: linear-gradient(0deg, #007fb6 25%, #062735a4 55%), url(../images/pexels-sevenstormphotography-443383.jpg);
     background-size: cover;
     background-position: center bottom;
     .edu-grid{
@@ -1888,7 +1888,7 @@ body{
           .capacitacion{
             grid-area: capacitacion;
             background: linear-gradient(0deg, #062735c5 10%, #062735d3 20%),
-            url(../assets/images/pexels-hillaryfox-1595385.jpg);
+            url(../images/pexels-hillaryfox-1595385.jpg);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -1896,7 +1896,7 @@ body{
           .recursos{
             grid-area: recursos;
             background: linear-gradient(0deg, #062735c5 10%, #062735d3 20%),
-            url(../assets/images/pexels-goumbik-590020.jpg);
+            url(../images/pexels-goumbik-590020.jpg);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -1904,7 +1904,7 @@ body{
           .webinars{
             grid-area: webinars;
             background: linear-gradient(0deg, #062735c5 10%, #062735d3 20%),
-            url(../assets/images/fondo-main.jpg);
+            url(../images/fondo-main.jpg);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -1912,7 +1912,7 @@ body{
           .colaboracion{
             grid-area: colaboracion;
             background: linear-gradient(0deg, #062735c5 10%, #062735d3 20%),
-            url(../assets/images/pexels-markusspiske-2004161.jpg);
+            url(../images/pexels-markusspiske-2004161.jpg);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -1967,7 +1967,7 @@ body{
         #000000b7 20%,
         #000000b7 80%
       ),
-      url(../assets/images/pexels-cookiecutter-1148820.jpg); /* Imagen de fondo */
+      url(../images/pexels-cookiecutter-1148820.jpg); /* Imagen de fondo */
     background-size: cover;
     background-position: center left;
     background-repeat: no-repeat;
@@ -2149,7 +2149,7 @@ body{
     width: 40%;
     height: 100%;
     object-fit: cover;
-    background-image: url(../assets/images/Innovation-amico.png);
+    background-image: url(../images/Innovation-amico.png);
     background-size: contain;
     background-position: center right;
     background-repeat: no-repeat;
@@ -2218,7 +2218,7 @@ body{
   .square1 {
     grid-area: square1;
     background: linear-gradient(160deg, #00111d9d 40%, #3c3c3b8e 90%),
-      url(../assets/images/pexels-asphotograpy-518244.jpg);
+      url(../images/pexels-asphotograpy-518244.jpg);
     background-position: center;
     background-size: cover;
   }
@@ -2274,7 +2274,7 @@ body{
     padding: 20px;
     border-radius: 20px 20px 20px 100px;
     background: linear-gradient(160deg, #00111db0 40%, #3c3c3b70 90%),
-      url(../assets/images/pexels-olly-3760089.jpg);
+      url(../images/pexels-olly-3760089.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2456,7 +2456,7 @@ body{
     "img";
   background-color: #00111d;
   background: linear-gradient(-5deg, #062735 25%, #062735e0 25%),
-    url(../assets/images/transparencia-fondo.webp);
+    url(../images/transparencia-fondo.webp);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -2575,7 +2575,7 @@ body{
   background-color: white;
   background-color: #00111d;
   background: linear-gradient(0deg, $highlight-color 5%, #062735a4 45%),
-    url(../assets/images/pexels-darshan394-1044329.jpg);
+    url(../images/pexels-darshan394-1044329.jpg);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -2663,7 +2663,7 @@ body{
   height: 1000px;
   padding-top: 5%;
   background: linear-gradient(170deg, #003d57a1 10%, #003d57a1 10%),
-    url(../assets/images/pexels-darshan394-1044329.jpg);
+    url(../images/pexels-darshan394-1044329.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: grid;
@@ -2803,7 +2803,7 @@ body{
   background-color: white;
   background-color: #00111d;
   background: linear-gradient(0deg, #062735 25%, #062735a4 55%),
-    url(../assets/images/pexels-sevenstormphotography-443383.jpg);
+    url(../images/pexels-sevenstormphotography-443383.jpg);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -2873,7 +2873,7 @@ body{
   width: 100%;
   height: 2400px;
   background: linear-gradient(0deg, #007fb6 25%, #062735a4 55%),
-    url(../assets/images/pexels-sevenstormphotography-443383.jpg);
+    url(../images/pexels-sevenstormphotography-443383.jpg);
   background-size: cover;
   background-position: center bottom;
   .edu-grid {
@@ -2934,7 +2934,7 @@ body{
     .capacitacion {
       grid-area: capacitacion;
       background: linear-gradient(0deg, #062735c5 10%, #062735d3 20%),
-        url(../assets/images/pexels-hillaryfox-1595385.jpg);
+        url(../images/pexels-hillaryfox-1595385.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -2942,7 +2942,7 @@ body{
     .recursos {
       grid-area: recursos;
       background: linear-gradient(0deg, #062735c5 10%, #062735d3 20%),
-        url(../assets/images/pexels-goumbik-590020.jpg);
+        url(../images/pexels-goumbik-590020.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -2950,7 +2950,7 @@ body{
     .webinars {
       grid-area: webinars;
       background: linear-gradient(0deg, #062735c5 10%, #062735d3 20%),
-        url(../assets/images/fondo-main.jpg);
+        url(../images/fondo-main.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -2958,7 +2958,7 @@ body{
     .colaboracion {
       grid-area: colaboracion;
       background: linear-gradient(0deg, #062735c5 10%, #062735d3 20%),
-        url(../assets/images/pexels-markusspiske-2004161.jpg);
+        url(../images/pexels-markusspiske-2004161.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -3032,7 +3032,7 @@ body{
   }
   .newsletter-img {
     grid-area: img;
-    background-image: url(../assets/images/Online\ world-bro.png);
+    background-image: url(../images/Online\ world-bro.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -3090,7 +3090,7 @@ body{
               height: 150px;
               overflow: hidden;
               background: linear-gradient(0deg, #ffffff00 10%, #4de4ff00 20%),
-              url(../assets/images/pexels-tara-winstead-8386369.jpg);
+              url(../images/pexels-tara-winstead-8386369.jpg);
               background-position: center bottom;
               background-size: cover;
               background-repeat: no-repeat;
@@ -3205,7 +3205,7 @@ body{
         #000000b7 20%,
         #000000b7 80%
       ),
-      url(../assets/images/pexels-cookiecutter-1148820.jpg); /* Imagen de fondo */
+      url(../images/pexels-cookiecutter-1148820.jpg); /* Imagen de fondo */
     background-size: cover;
     background-position: center left;
     background-repeat: no-repeat;
@@ -3387,7 +3387,7 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    background-image: url(../assets/images/Innovation-amico.png);
+    background-image: url(../images/Innovation-amico.png);
     background-size: contain;
     background-position: center right;
     background-repeat: no-repeat;
@@ -3455,7 +3455,7 @@ body{
   .square1 {
     grid-area: square1;
     background: linear-gradient(160deg, #00111d9d 40%, #3c3c3b8e 90%),
-      url(../assets/images/pexels-asphotograpy-518244.jpg);
+      url(../images/pexels-asphotograpy-518244.jpg);
     background-position: center;
     background-size: cover;
   }
@@ -3511,7 +3511,7 @@ body{
     padding: 20px;
     border-radius: 20px 20px 20px 100px;
     background: linear-gradient(160deg, #00111db0 40%, #3c3c3b70 90%),
-      url(../assets/images/pexels-olly-3760089.jpg);
+      url(../images/pexels-olly-3760089.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3691,7 +3691,7 @@ body{
     "img";
   background-color: #00111d;
   background: linear-gradient(-5deg, #062735 25%, #062735e0 25%),
-    url(../assets/images/transparencia-fondo.webp);
+    url(../images/transparencia-fondo.webp);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -3810,7 +3810,7 @@ body{
   background-color: white;
   background-color: #00111d;
   background: linear-gradient(0deg, $highlight-color 5%, #062735a4 45%),
-    url(../assets/images/pexels-darshan394-1044329.jpg);
+    url(../images/pexels-darshan394-1044329.jpg);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -3898,7 +3898,7 @@ body{
   height: 1600px;
   padding-top: 80px;
   background: linear-gradient(170deg, #003d57a1 10%, #003d57a1 10%),
-    url(../assets/images/pexels-darshan394-1044329.jpg);
+    url(../images/pexels-darshan394-1044329.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: grid;
@@ -4039,7 +4039,7 @@ body{
   background-color: white;
   background-color: #00111d;
   background: linear-gradient(0deg, #062735 25%, #062735a4 55%),
-    url(../assets/images/pexels-sevenstormphotography-443383.jpg);
+    url(../images/pexels-sevenstormphotography-443383.jpg);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -4109,7 +4109,7 @@ body{
   width: 100%;
   height: 2400px;
   background: linear-gradient(0deg, #007fb6 25%, #062735a4 55%),
-    url(../assets/images/pexels-sevenstormphotography-443383.jpg);
+    url(../images/pexels-sevenstormphotography-443383.jpg);
   background-size: cover;
   background-position: center bottom;
   .edu-grid {
@@ -4170,7 +4170,7 @@ body{
     .capacitacion {
       grid-area: capacitacion;
       background: linear-gradient(0deg, #062735c5 10%, #062735d3 20%),
-        url(../assets/images/pexels-hillaryfox-1595385.jpg);
+        url(../images/pexels-hillaryfox-1595385.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -4178,7 +4178,7 @@ body{
     .recursos {
       grid-area: recursos;
       background: linear-gradient(0deg, #062735c5 10%, #062735d3 20%),
-        url(../assets/images/pexels-goumbik-590020.jpg);
+        url(../images/pexels-goumbik-590020.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -4186,7 +4186,7 @@ body{
     .webinars {
       grid-area: webinars;
       background: linear-gradient(0deg, #062735c5 10%, #062735d3 20%),
-        url(../assets/images/fondo-main.jpg);
+        url(../images/fondo-main.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -4194,7 +4194,7 @@ body{
     .colaboracion {
       grid-area: colaboracion;
       background: linear-gradient(0deg, #062735c5 10%, #062735d3 20%),
-        url(../assets/images/pexels-markusspiske-2004161.jpg);
+        url(../images/pexels-markusspiske-2004161.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -4268,7 +4268,7 @@ body{
   }
   .newsletter-img {
     grid-area: img;
-    background-image: url(../assets/images/Online\ world-bro.png);
+    background-image: url(../images/Online\ world-bro.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -4326,7 +4326,7 @@ body{
               height: 150px;
               overflow: hidden;
               background: linear-gradient(0deg, #ffffff00 10%, #4de4ff00 20%),
-              url(../assets/images/pexels-tara-winstead-8386369.jpg);
+              url(../images/pexels-tara-winstead-8386369.jpg);
               background-position: center bottom;
               background-size: cover;
               background-repeat: no-repeat;
@@ -4441,7 +4441,7 @@ body{
         #000000b7 20%,
         #000000b7 80%
       ),
-      url(../assets/images/pexels-cookiecutter-1148820.jpg); /* Imagen de fondo */
+      url(../images/pexels-cookiecutter-1148820.jpg); /* Imagen de fondo */
     background-size: cover;
     background-position: center left;
     background-repeat: no-repeat;
@@ -4612,7 +4612,7 @@ display: none;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    background-image: url(../assets/images/Innovation-amico.png);
+    background-image: url(../images/Innovation-amico.png);
     background-size: contain;
     background-position: center right;
     background-repeat: no-repeat;
@@ -4682,7 +4682,7 @@ display: none;
   .square1 {
     grid-area: square1;
     background: linear-gradient(160deg, #00111d9d 40%, #3c3c3b8e 90%),
-      url(../assets/images/pexels-asphotograpy-518244.jpg);
+      url(../images/pexels-asphotograpy-518244.jpg);
     background-position: center;
     background-size: cover;
   }
@@ -4738,7 +4738,7 @@ display: none;
     padding: 20px;
     border-radius: 20px 20px 20px 100px;
     background: linear-gradient(160deg, #00111db0 40%, #3c3c3b70 90%),
-      url(../assets/images/pexels-olly-3760089.jpg);
+      url(../images/pexels-olly-3760089.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -4918,7 +4918,7 @@ display: none;
     "img";
   background-color: #00111d;
   background: linear-gradient(-5deg, #062735 25%, #062735e0 25%),
-    url(../assets/images/transparencia-fondo.webp);
+    url(../images/transparencia-fondo.webp);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -5037,7 +5037,7 @@ display: none;
   background-color: white;
   background-color: #00111d;
   background: linear-gradient(0deg, $highlight-color 5%, #062735a4 45%),
-    url(../assets/images/pexels-darshan394-1044329.jpg);
+    url(../images/pexels-darshan394-1044329.jpg);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -5125,7 +5125,7 @@ display: none;
   height: 1600px;
   padding-top: 80px;
   background: linear-gradient(170deg, #003d57a1 10%, #003d57a1 10%),
-    url(../assets/images/pexels-darshan394-1044329.jpg);
+    url(../images/pexels-darshan394-1044329.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: grid;
@@ -5266,7 +5266,7 @@ display: none;
   background-color: white;
   background-color: #00111d;
   background: linear-gradient(0deg, #062735 25%, #062735a4 55%),
-    url(../assets/images/pexels-sevenstormphotography-443383.jpg);
+    url(../images/pexels-sevenstormphotography-443383.jpg);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -5336,7 +5336,7 @@ display: none;
   width: 100%;
   height: 2400px;
   background: linear-gradient(0deg, #007fb6 25%, #062735a4 55%),
-    url(../assets/images/pexels-sevenstormphotography-443383.jpg);
+    url(../images/pexels-sevenstormphotography-443383.jpg);
   background-size: cover;
   background-position: center bottom;
   .edu-grid {
@@ -5397,7 +5397,7 @@ display: none;
     .capacitacion {
       grid-area: capacitacion;
       background: linear-gradient(0deg, #062735c5 10%, #062735d3 20%),
-        url(../assets/images/pexels-hillaryfox-1595385.jpg);
+        url(../images/pexels-hillaryfox-1595385.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -5405,7 +5405,7 @@ display: none;
     .recursos {
       grid-area: recursos;
       background: linear-gradient(0deg, #062735c5 10%, #062735d3 20%),
-        url(../assets/images/pexels-goumbik-590020.jpg);
+        url(../images/pexels-goumbik-590020.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -5413,7 +5413,7 @@ display: none;
     .webinars {
       grid-area: webinars;
       background: linear-gradient(0deg, #062735c5 10%, #062735d3 20%),
-        url(../assets/images/fondo-main.jpg);
+        url(../images/fondo-main.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -5421,7 +5421,7 @@ display: none;
     .colaboracion {
       grid-area: colaboracion;
       background: linear-gradient(0deg, #062735c5 10%, #062735d3 20%),
-        url(../assets/images/pexels-markusspiske-2004161.jpg);
+        url(../images/pexels-markusspiske-2004161.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -5495,7 +5495,7 @@ display: none;
   }
   .newsletter-img {
     grid-area: img;
-    background-image: url(../assets/images/Online\ world-bro.png);
+    background-image: url(../images/Online\ world-bro.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -5553,7 +5553,7 @@ display: none;
               height: 150px;
               overflow: hidden;
               background: linear-gradient(0deg, #ffffff00 10%, #4de4ff00 20%),
-              url(../assets/images/pexels-tara-winstead-8386369.jpg);
+              url(../images/pexels-tara-winstead-8386369.jpg);
               background-position: center bottom;
               background-size: cover;
               background-repeat: no-repeat;
