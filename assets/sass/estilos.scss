@@ -101,7 +101,7 @@ body{
         width: 50%;
         height: 100%;
         background-color: #00111d;
-        background: linear-gradient(90deg, #00111da9 25%, #062735b9 90%), url(../images/dall-e3.webp);
+        background: linear-gradient(90deg, #00111da9 25%, #062735b9 90%), url("../images/dall-e3.webp");
         background-size: cover;
         background-position: center top;
         background-repeat: no-repeat;
@@ -248,7 +248,7 @@ body{
         width: 100%;
         height: 100%;
         object-fit: cover;
-        background-image: url(../assets/images/Innovation-amico.png);
+        background-image: url("../images/Innovation-amico.png");
         background-size: 500px;
         background-position: center right;
         background-repeat: no-repeat;
