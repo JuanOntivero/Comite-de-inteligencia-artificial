@@ -5752,11 +5752,11 @@ body {
     height: 2000px;
     background-color: #3c3c3b;
     display: grid;
-    grid-template-columns: 255px;
+    grid-template-columns: 100%;
     grid-template-rows: 300px 200px 100px 200px 200px 300px 300px 200px;
     grid-template-areas: "square1" "square5" "square7" "square8" "square9" "square11" "square15" "square18";
     padding-left: 10%;
-    padding-right: 15%;
+    padding-right: 10%;
     padding-top: 5%;
     background: linear-gradient(5deg, rgb(255, 255, 255) 20%, rgba(81, 180, 189, 0) 20%);
     /* Degradado */ /* Imagen de fondo */

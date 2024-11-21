@@ -5864,7 +5864,7 @@ display: none;
   height: 2000px;
   background-color: #3c3c3b;
   display: grid;
-  grid-template-columns: 255px;
+  grid-template-columns: 100%;
   grid-template-rows: 300px 200px 100px 200px 200px 300px 300px 200px;
   grid-template-areas:
     "square1"
@@ -5876,7 +5876,7 @@ display: none;
     "square15" 
     "square18";
   padding-left: 10%;
-  padding-right: 15%;
+  padding-right: 10%;
   padding-top: 5%;
   background: linear-gradient(5deg, rgb(255, 255, 255) 20%, #51b4bd00 20%);
   /* Degradado */ /* Imagen de fondo */
